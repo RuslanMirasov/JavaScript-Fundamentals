@@ -3,21 +3,15 @@ const profile = {
   playTime: 300,
 
   getInfo() {
-    // TODO
-
-    return `TODO`;
+    return `${this.username} has ${this.playTime} active hours!`;
   },
 
   changeUsername(newName) {
-    // TODO
-
-    return `TODO`;
+    this.username = newName;
   },
 
   updatePlayTime(hours) {
-    // TODO
-
-    return `TODO`;
+    this.playTime += hours;
   },
 };
 
